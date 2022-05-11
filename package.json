@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "⭐ Personal portfolio of the developer Bohdan Khavrych",
+  "main": "index.js",
+  "homepage": "https://bogdan-khavrych.github.io/portfolio/",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.6.0",
+    "magnific-popup": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "rigger": "^1.0.1",
+    "sass": "^1.43.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Bohdan Khavrych",
+  "license": "ISC"
+}
