@@ -19,6 +19,9 @@ $(function(){
             $('[data-card=13]').css('display', 'inline-flex')
             $('[data-card=14]').css('display', 'inline-flex')
             $('[data-card=15]').css('display', 'inline-flex')
+            $('[data-card=16]').css('display', 'inline-flex')
+            $('[data-card=17]').css('display', 'inline-flex')
+            $('[data-card=18]').css('display', 'inline-flex')
             cardClick++;
             $(this).css('display', 'none')
         }
