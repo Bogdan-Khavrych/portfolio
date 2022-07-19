@@ -78,6 +78,7 @@
         border-radius: 12px;
         position: relative;
         max-width: 300px;
+        min-width: 300px;
         min-height: 420px;
     }
     .about__card-icon{
@@ -174,6 +175,7 @@
 @media (max-width: 1140px) and (min-width: 1024px){
     .about__card {
         max-width: 275px;
+        min-width: 275px;
         min-height: 400px;
     }
 }
@@ -359,6 +361,7 @@
         border-radius: 12px;
         position: relative;
         max-width: 300px;
+        min-width: 300px;
         min-height: 420px;
     }
     .about {
