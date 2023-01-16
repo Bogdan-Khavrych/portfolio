@@ -60,7 +60,7 @@ body{
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 /* Track */
 ::-webkit-scrollbar-track {
@@ -1571,6 +1571,13 @@ $color: #d8deff;
 .portfolio__load{
     display: flex;
     justify-content: center;
+}
+
+.header__logo-uk{
+    margin-left: 8px;
+    max-width: 24px;
+    height: 24px;
+    display: block;
 }
 
 @import "night-theme.scss";
