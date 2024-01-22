@@ -536,6 +536,7 @@ body *::-webkit-scrollbar-track {
     outline-color: rgba(240, 136, 9, .75);
     &-image{
         display: block;
+        border-radius: 50%;
     }
     &:hover{
         opacity: .7;
@@ -1321,6 +1322,11 @@ z-index: 1;
     background-color: #fff;
     padding: 24px 0;
     border-bottom: 1px solid rgba(36,36,36,.5);
+}
+
+.popup__logo{
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .popup__logo-img{
